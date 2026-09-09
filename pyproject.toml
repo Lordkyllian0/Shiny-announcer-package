@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ballsdex-shiny-announcer"
+version = "0.1.0"
+description = "Shiny catch announcer package for BallsDex v3"
+requires-python = ">=3.12"
+readme = "README.md"
+
+[tool.setuptools.packages.find]
+include = ["shinyannouncer*"]
