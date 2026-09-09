@@ -24,7 +24,7 @@ Add the package to your BallsDex `config/extra.toml`:
 
 ```toml
 [[ballsdex.packages]]
-location = "git+https://github.com/YOUR-USERNAME/YOUR-REPO.git@main"
+location = "git+https://github.com/Lordkyllian0/Shiny-announcer-package"
 path = "shinyannouncer"
 enabled = true
 ```
